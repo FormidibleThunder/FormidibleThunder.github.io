@@ -1,0 +1,207 @@
+/*BEGIN PS3 Controller Styling*/
+.controller.ps {
+    background: url(base2.png);
+    height: 558px;
+    width: 784px;
+    /*    margin-left: -392px;
+        margin-top: -259px;*/
+}
+
+.ps .quadrant {
+    position: absolute;
+    background: url(ps3-assets/player-n.png);
+    height: 17px;
+    width: 111px;
+    top: 140px;
+    left: 240px;
+}
+
+.ps .p0 {
+    background-position: 0 -6px;
+}
+
+.ps .p1 {
+    background-position: 0 -28px;
+}
+
+.ps .p2 {
+    background-position: 0 -49px;
+}
+
+.ps .p3 {
+    background-position: 0 -70px;
+}
+
+.ps .abxy {
+    position: absolute;
+    width: 204px;
+    height: 205px;
+    top: 156px;
+    left: 538px;
+}
+
+.ps .button {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    background: url(ps3-assets/face-buttons.png);
+}
+
+.ps .button.pressed {
+    background-position-y: -64px;
+    margin-top: 5px;
+}
+
+.ps .a {
+    background-position: 62px 0;
+    top: 142px;
+    left: 71px;
+}
+
+.ps .b {
+    background-position: 125px 0;
+    top: 71px;
+    right: 0px;
+}
+
+.ps .x {
+    background-position: 0 0;
+    top: 71px;
+}
+
+.ps .y {
+    background-position: -63px 0;
+    left: 71px;
+}
+
+.ps .sticks {
+    position: absolute;
+    width: 364px;
+    height: 105px;
+    top: 328px;
+    left: 210px;
+}
+
+.ps .stick {
+    position: absolute;
+    background: url(ps3-assets/thumbs.png);
+    height: 105px;
+    width: 105px;
+}
+
+.ps .stick.pressed.left {
+    background-position-x: -106px;
+}
+
+.ps .stick.pressed.right {
+    background-position-x: -211px;
+}
+
+.ps .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.ps .stick.right {
+    top: calc(100% - 105px);
+    left: calc(100% - 105px);
+}
+
+.ps .dpad {
+    position: absolute;
+    width: 140px;
+    height: 132px;
+    top: 192px;
+    left: 74px;
+}
+
+.ps .face {
+    background: url(ps3-assets/dpad.png);
+    position: absolute;
+}
+
+.ps .face.up, .ps .face.down {
+    width: 38px;
+    height: 52px;
+}
+
+.ps .face.left, .ps .face.right {
+    width: 52px;
+    height: 38px;
+}
+
+.ps .face.up {
+    left: 50px;
+    top: 0;
+    background-position: 92px 0px;
+}
+
+.ps .face.down {
+    left: 50px;
+    top: 79px;
+    background-position: 131px 0;
+}
+
+.ps .face.left {
+    top: 47px;
+    left: 0;
+    background-position: 0px 0;
+}
+
+.ps .face.right {
+    top: 47px;
+    right: 0px;
+    background-position: 53px 0;
+}
+
+.ps .face.pressed {
+    margin-top: 5px;
+    background-position-y: 52px;
+}
+
+.ps.half {
+    margin-top: -279px;
+}
+
+/*END PS3 Controller Styling*/
+
+/*BEGIN PS3 White Controller Styling*/
+.controller.ps.white {
+    background-image: url(ps3-white-assets/base.png);
+}
+
+.ps.white.disconnected {
+    background-image: url(ps3-white-assets/base-disconnect.png);
+}
+
+
+.ps.white .trigger {
+    background-image: url(ps3-white-assets/triggers.png);
+}
+
+
+.ps.white .bumper {
+    background-image: url(ps3-white-assets/bumpers.png);
+}
+
+.ps.white .quadrant {
+    background-image: url(ps3-white-assets/player-n.png);
+}
+
+.ps.white .back, .ps.white .start {
+    background-image: url(ps3-white-assets/menus.png);
+}
+
+.ps.white .button {
+    background-image: url(ps3-white-assets/face-buttons.png);
+}
+
+.ps.white .stick {
+    background-image: url(ps3-white-assets/thumbs.png);
+}
+
+.ps.white .face {
+    background-image: url(ps3-white-assets/dpad.png);
+}
+
+/*END PS3 White Controller Styling*/
