@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="https://kit.fontawesome.com/4e94512a05.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"> <!-- Linking the style.css file -->
+</head>
+
+<body>
+    <header role="banner" aria-label="Site Header">The Wonders of Sri Lankan Food</header>
+
+    <!-- The navigation bar where all the links to the other webpages appear -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <ul role="menubar" aria-label="Main menu">
+            <li role="none"><a href="index.html" role="menuitem" aria-label="Home page">Home</a></li>
+            <li role="none"><a href="recipes.html" class="active" role="menuitem" aria-current="page"
+                    aria-label="Recipes page">Recipes</a></li>
+            <li role="none"><a href="register.html" role="menuitem" aria-label="Sign up for newsletter">Newsletter</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Navgation bar element ends here -->
+
+
+
+    <!-- This controls the hero image -->
+    <div class="banner" role="banner" aria-label="Hero Banner">
+        <img src="./images/lk_spices.png"
+            alt="Traditional Sri Lankan spice display with various ground spices and whole spices in dark wooden bowls">
+        <div class="banner-overlay">
+            <div class="banner-text" aria-label="Banner Description">
+                <h1>The Wonders of Sri Lankan Food</h1>
+                <p class="banner-desc">
+                    As a proud Sri Lankan who moved to New Zealand at a very young age, my upbringing
+                    pertains to a diverse fusion of cultures and interest in food. On one side we have the part of me
+                    that honours my
+                    Sri Lankan roots while the other half celebrates the kiwi side that I’ve developed after living in
+                    New Zealand for so long. Both my parents were born in Colombo, the capital city of Sri Lanka, so I
+                    can vouch for the outstanding dishes that you can find throughout the country. Through the
+                    flavourful nature
+                    of the spices used in Sri Lankan cooking, I have become spoilt in terms of what I consider
+                    delicious food. Whenever I’m away from home my mum’s cooking is what I always miss the most! I have
+                    been fortunate enough to be blessed with a brilliant chef as a mum. Check out the recipes I have
+                    posted and I hope that you get inspired to try Sri Lankan food.
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <!-- End of the hero image element -->
+
+    <div class="sidebar" role="complementary" aria-label="Quick navigation menu">
+        <h2 id="recipe-list">LIST OF RECIPES</h2>
+        <nav aria-labelledby="recipe-list">
+            <ul role="menubar">
+                <li role="none">
+                    <a href="#Lamprais" class="nav-link" role="menuitem"
+                        aria-label="Jump to Lamprais recipe section">01. Lamprais</a>
+                </li>
+                <li role="none">
+                    <a href="#kottu" class="nav-link" role="menuitem" aria-label="Jump to kottu recipe section">02.
+                        Kottu</a>
+                </li>
+                <li role="none">
+                    <a href="#hoppers" class="nav-link" aria-label="Jump to egg hoppers recipe section">03. Egg
+                        Hoppers</a>
+                </li>
+            </ul>
+    </div>
+
+
+    <!-- All content about the different recipes belong in the following section, this includes headings, paragraphs, images and headings -->
+    <div class="content" role="main" aria-label="Main Content">
+        <div id="Lamprais-section" class="recipe-section">
+
+            <!-- A note for Lamprais -->
+
+            <div class="lamprais-tip">
+                <h4>💡Time-Saving Tip</h4>
+                <p>Short on time? Many of the accompaniments for Lamprais can be prepared in advance! Make the seeni
+                    sambol, cutlets, eggplant moju, and blachan on different days and store them in the freezer until
+                    you're ready to assemble the final dish. This makes the cooking process much more manageable!</p>
+            </div>
+            <div id="Lamprais" class="recipe-section" aria-labelledby="Lamprais-heading">
+                <h1 id="Lamprais-heading">01. Lamprais</h1>
+                <h2>Banana Leaf Bundles of Joy: Unwrapping Lamprais</h2>
+                <p>The food scene of Sri Lanka is quite unique because their culture has been intertwined with
+                    influences from Britain, Portugal,
+                    Netherlands and even Malaysia. From 1658 until 1796 Sri Lanka was colonised <a
+                        href="https://www.britannica.com/place/Sri-Lanka/Dutch-rule-in-Sri-Lanka-1658-1796"
+                        class="history-link" target="_blank" rel="noopener">by the Netherlands</a>,
+                    during this period a ethnic
+                    group known as the Dutch Burghers settled in Sri Lanka. The Dutch Burgher's were decendents from
+                    Dutch, Portuguese and Sri Lankan ancestry who introduced a dish that would later become Lamprais.
+                </p><br>
+                <p>The etymology of Lamprais can be traced back to the Dutch word lomprijst or “parcel of food”. This is
+                    essentially Sri Lankan comfort food at its best! Each time I eat Lamprais it reminds me of my
+                    heritage and feeds my soul. The cool thing about Lamprais is that the dish is
+                    flexible and varies in the ingredients used depending on the family.
+                    The components of Lamprais used whenever
+                    my mum makes it include, Seeni Sambol (spicy and sweet caramelised onion relish), Wambotu
+                    Moju (eggplant pickle), a variety of short grain rice called Samba cooked in beef stock, Fish
+                    Cutlets (croquettes with tuna and potato filling) and Chicken Curry all wrapped up and steamed in
+                    banana leaves. The inclusion of the banana leaf wrapping imparts a unique aroma and taste to the
+                    dish, adding a subtle earthy note.
+                </p><br>
+
+                <img id="riceDish" src="./images/Lamprais.jpg"
+                    alt="Sri Lankan Lamprais served on a banana leaf: a mound of rice surrounded by mixed meat curry, fried egg, cutlet, seeni sambol, brinjal moju, and other traditional side dishes."
+                    width="800" height="500">
+                <br><br><br>
+            </div>
+
+
+            <!-- Summary of Lamprais -->
+            <table class="recipe-summary-table condensed" aria-label="Recipe Summary">
+                <tr>
+                    <th scope="col">Category</th>
+                    <th scope="col">Servings</th>
+                    <th scope="col">Prep Time</th>
+                    <th scope="col">Cook Time</th>
+                </tr>
+                <tr>
+                    <td>Celebration</td>
+                    <td>4 People</td>
+                    <td>That's a long time</td>
+                    <td>That's also a long time 💀</td>
+                </tr>
+            </table>
+            <table class="recipe-steps-table condensed" aria-label="Recipe Details">
+                <tr>
+                    <th scope="col">Recipe<br><br>
+                        <h6>Click on a recipe name to expand and view details</h6>
+                    </th>
+                    <th scope="col">Ingredients</th>
+                    <th scope="col">Method</th>
+                </tr>
+
+
+
+                <!-- Lamprais -->
+                <tr class="recipe-header" data-recipe="Lamprais-deets">
+                    <td>
+                        <button type="button" class="expand-btn" aria-expanded="false" aria-controls="Lamprais details"
+                            aria-label="Toggle Lamprais recipe details">Lamprais</button>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+
+                <!-- Example for Lamprais (repeat for other recipes) -->
+                <tr class="recipe-details" id="Lamprais-deets" style="display:none;" aria-live="polite">
+                    <td></td>
+                    <td>
+                        <ul>
+                            <li>Lamprais Rice</li><br>
+                            <li>Chicken Curry</li><br>
+                            <li>Seeni Sambol</li><br>
+                            <li>Cutlets</li><br>
+                            <li>Fried Boiled Egg</li><br>
+                            <li>Brinjal (Eggplant) Moju</li><br>
+                            <li>Blachan</li><br>
+                            <li>Ash Plantain Curry</li><br>
+                        </ul>
+                    </td>
+
+                    <!-- How to serve Lamprais after you've made all the ingredients-->
+                    <td>
+                        <h3 id="serve-directions">Lamprais Serving Directions</h3>
+                        <ol class="step-list" data-header="Lamprais-deets">
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 1 as complete."> Cook the rice.</label></li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 2 as complete"> Prepare the chicken curry.</label>
+                            </li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 3 as complete"> Make the seeni sambol.</label></li>
+                            <br>
+
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 4 as complete"> Fry the cutlets.</label></li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 5 as complete"> Make the Eggplant Moju.</label>
+                            </li><br>
+
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 6 as complete"> Prepare the blachan.</label></li>
+                            <br>
+
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 7 as complete"> Make the Ash Plantain
+                                    Curry.</label>
+                            </li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 8 as complete"> Make the fried boiled eggs.</label>
+                            </li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 9 as complete"> Assemble and wrap in banana leaf.
+                                </label></li><br>
+                        </ol>
+                    </td>
+                </tr>
+
+
+
+                <!-- Cutlets -->
+                <tr class="recipe-header" data-recipe="cutlets">
+                    <td>
+                        <button type="button" class="expand-btn" aria-expanded="false" aria-controls="cutlets"
+                            aria-label="Toggle cutlet recipe details">Cutlets</button>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="recipe-details" id="cutlets" style="display:none;">
+                    <td>
+                    </td>
+                    <td>
+                        <ul>
+                            <li> 200g Mashed Potatoes</li><br>
+                            <li> 150g canned tuna in water (drained)</li><br>
+                            <li> 1 medium red onion (chopped)</li><br>
+                            <li> 10 - 15 curry leaves (chopped)</li><br>
+                            <li> 2 green chillies (chopped)</li><br>
+                            <li> add salt and pepper to your taste</li><br>
+                            <li> vegetable oil for frying</li><br>
+                            <li> breadcrumbs (quantity?)</li><br>
+                        </ul>
+                    </td>
+                    <td>
+                        <ol class="step-list" data-header="cutlets">
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 1 as complete.">Boil potatoes until fork tender
+                                    (about 15 - 20 minutes) and then mash with a potato
+                                    masher.</label></li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 2 as complete.">Drain the tin of tuna.</label></li>
+                            <br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 3 as complete.">finely dice 1 medium onion, chop the
+                                    chillies and curry leaves.</label></li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 4 as complete.">In a mixing bowl combine the mashed
+                                    potatoes with the onion, chilli, tuna and curry leaves.</label></li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 5 as complete.">Put stove on medium heat and add
+                                    enough oil to cover the bottom of the pan. Add the potato mixture and cook for 3 - 5
+                                    minutes and then let it cool.</label></li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 6 as complete.">After the mixture has cooled, shape
+                                    it into balls.</label></li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 7 as complete.">Crack a egg into a different bowl
+                                    and whisk it for 1 minute, in another bowl add breadcrumbs.</li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 8 as complete.">After you have prepared your
+                                    workstation, get your potato balls, use one hand to dip them into the egg mixture
+                                    and using the other dip in the breadcrumbs.</label></li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 9 as complete.">Once you have shaped and used up all
+                                    of the potato mixture, fill a skillet or frying pan with enough oil in order to
+                                    submerge the potato balls (or you can use a deep fryer filled with oil).</label>
+                            </li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 10 as complete.">Fry the cutlets until golden
+                                    brown.</label></li><br>
+                        </ol>
+                    </td>
+                </tr>
+
+
+
+                <!-- Chicken Curry -->
+                <tr class="recipe-header" data-recipe="chicken-curry">
+                    <td>
+                        <button type="button" class="expand-btn" aria-expanded="false" aria-controls="chicken curry"
+                            aria-label="Toggle chicken curry recipe details">Chicken Curry</button>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="recipe-details" id="chicken-curry" style="display:none;">
+                    <td>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>250g chicken thighs cut into small pieces</li><br>
+                            <li>5 cloves</li><br>
+                            <li>3 cardamoms</li><br>
+                            <li>1 tbsp pepper</li><br>
+                            <li>1" of ginger</li><br>
+                            <li>5 garlic cloves mashed</li><br>
+                            <li>2 tbsp jaffna curry powder</li><br>
+                            <li>2 tsp red chilli powder</li><br>
+                            <li>1 medium sized red onion (thinly sliced)</li><br>
+                            <li>2 green chillies</li><br>
+                            <li>6 - 10 curry leaves</li><br>
+                            <li>2 1" pieces of pandan leaves</li><br>
+                            <li>2 2" lemongrass</li><br>
+                            <li>2 tbsp vegetable oil</li><br>
+                            <li>1 tsp tomato paste</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ol class="step-list" data-header="chicken-curry">
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 1 as complete.">In a mortar and pestle add 5 cloves,
+                                    3 cardamoms, 1 tbsp black whole peppercorns, 1" of ginger and 5 garlic cloves and
+                                    pound into a fine paste.</label></li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 2 as complete.">Set the stovetop element to medium
+                                    heat and place a pan filled with 2 tbsp vegetable oil.</label></li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 3 as complete.">After the pan has come to
+                                    temperature add all the ingredients except the chicken.</label></li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 4 as complete."> Toast the spices for 1 minute then
+                                    add the chicken.</label></li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 5 as complete.">Mix the chicken well with the other
+                                    ingredients and cook for 3 - 5 minutes. After 3 - 5 minutes pour enough water to
+                                    cover the chicken pieces, now cook the chicken until tender, about 10
+                                    minutes.</label></li><br>
+                        </ol>
+                    </td>
+                </tr>
+
+
+
+                <!-- Seeni Sambol -->
+                <tr class="recipe-header" data-recipe="seeni-sambol">
+                    <td>
+                        <button type="button" class="expand-btn" aria-expanded="false" aria-controls="seeni sambol"
+                            aria-label="Toggle seeni sambol recipe details">Seeni Sambol</button>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="recipe-details" id="seeni-sambol" style="display:none;">
+                    <td></td>
+                    <td>
+                        <ul>
+                            <li>4 large red onions (thinly sliced)</li><br>
+                            <li>3 green cardamoms</li><br>
+                            <li>3 - 4 cloves</li><br>
+                            <li>1 cinnamon stick</li><br>
+                            <li>1 tsp red chilli powder</li><br>
+                            <li>5 - 10 curry leaves</li><br>
+                            <li>2 pandan leaves</li><br>
+                            <li>1/2 tsp tamarind paste</li><br>
+                            <li>2 tbsp vegetable oil</li><br>
+                            <li>3 tbsp of brown sugar</li><br>
+                            <li>Salt to taste</li><br>
+                        </ul>
+                    </td>
+                    <td>
+                        <ol class="step-list" data-header="seeni-sambol">
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 1 as complete.">Set the stovetop element to medium
+                                    heat and pour some oil into a pan.</label></li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 2 as complete.">Once the pan has come to temperature
+                                    add the green cardamom, cloves, cinnamon, red chilli powder, curry leaves, pandan
+                                    leaves, tamarind paste, brown sugar, onions, and salt to taste.</label></li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 3 as complete.">Drop the element to low heat to
+                                    avoid burning the onions and cook until caramelised, about 10 - 15 minutes or until
+                                    golden brown.</label></li><br>
+                        </ol>
+                    </td>
+                </tr>
+
+
+
+                <!-- Lamprais Rice -->
+                <tr class="recipe-header" data-recipe="Lamprais-rice">
+                    <td>
+                        <button type="button" class="expand-btn" aria-expanded="false" aria-controls="Lamprais rice"
+                            aria-label="Toggle Lamprais rice recipe details">Lamprais Rice</button>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="recipe-details" id="Lamprais-rice" style="display:none;">
+                    <td>
+                    </td>
+                    <td>
+                        <ul>
+                            <!-- Serves 4 -->
+
+                            <li>2 Cups Suduru Samba rice</li><br>
+                            <li>2 Cups Water</li><br>
+                            <li>2 - 3 1" pandan leaves</li><br>
+                            <li>10 - 15 sprigs curry leaves</li><br>
+                            <li>1 tbsp peppercorns</li><br>
+                            <li>2 - 3 green cardamoms</li><br>
+                            <li>4 - 5 cloves</li><br>
+                            <li>2 tbsp oil</li><br>
+                            <h3> For Stock </h3>
+                            <li> 2 cups beef stock</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ol class="step-list" data-header="Lamprais-rice">
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 1 as complete.">Rinse and wash the rice until pot of
+                                    water is clear.</label></li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 2 as complete.">Turn the stove on medium heat and
+                                    put 2 tbsp oil in the pot, when come to temp add
+                                    pandan and curry leaves, cardamom and peppercorns, saute until fragrant.</label>
+                            </li>
+                            <br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 3 as complete.">Add pinch of salt and saute until
+                                    fragrant add drained rice.</label></li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 4 as complete.">Mix the rice together with the
+                                    spices, afterwards add water and beef stock, fill to the
+                                    top.</label></li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 5 as complete.">On heat uncovered wait for the water
+                                    to evaporate until slightly below the rice. After
+                                    the water has evaporated close the lid and cook the water until the remaining water
+                                    has
+                                    evaporated.</label></li><br>
+                        </ol>
+                    </td>
+                </tr>
+
+                <!-- Brinjal (Eggplant) Moju -->
+                <tr class="recipe-header" data-recipe="brinjal-moju">
+                    <td>
+                        <button type="button" class="expand-btn" aria-expanded="false"
+                            aria-controls="brinjal moju (sweet and sour eggplant pickle)"
+                            aria-label="Toggle brinjal moju recipe details">Brinjal Moju</button>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="recipe-details" id="brinjal-moju" style="display:none;">
+                    <td>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>5 - 6 thinly sliced eggplants</li><br>
+                            <li>1 thinly sliced medium red onion</li><br>
+                            <li>5 - 6 green chillies</li><br>
+                            <li>5 - 6 curry leaves</li><br>
+                            <li>2, 1" pandan leaves</li><br>
+                            <li>2 - 3 cloves</li><br>
+                            <li>4 small cinnamon sticks</li><br>
+                            <li>1 tsp mustard seeds</li><br>
+                            <li>salt to taste</li><br>
+                            <li>2 tsp sugar</li><br>
+                            <li>1 tsp vinegar</li><br>
+                            <li>2 tbsp vegetable oil</li><br>
+                            <li>tomato sauce (quantity?)</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ol class="step-list" data-header="brinjal-moju">
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 1 as complete."> Set the stovetop element to medium
+                                    heat and
+                                    add 2 tbsp oil into a frying pan, wait until the
+                                    pan comes up to temperature.</label></li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 2 as complete.">Add all the ingredients except the
+                                    eggplant until halfway cooked, about 3 minutes. After
+                                    the ingredients are cooked halfway
+                                    add the eggplant and saute for an additional 3 minutes. Check for seasoning, if
+                                    there's
+                                    not enough salt add a bit more salt.</label></li><br>
+                            <li><label><input type="checkbox" class="step-checkbox"
+                                        aria-label="Mark step 3 as complete.">During the sauteing process if the
+                                    eggplant is too dry add enough tomato sauce for
+                                    moisture.</label></li><br>
+                        </ol>
+                    </td>
+                </tr>
+
+
+                <!-- Ash Plantain Curry -->
+
+                <tr class="recipe-header" data-recipe="ash-plantain-curry">
+                    <td>
+                        <button type="button" class="expand-btn" aria-expanded="false"
+                            aria-controls="ash plantain curry" aria-label="Toggle ash plantain recipe details">Ash
+                            Plantain Curry</button>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="recipe-details" id="ash-plantain-curry" style="display:none;">
+                    <td>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>5 Ash Plantains cut lengthwise</li><br>
+                            <li>Salt to taste</li><br>
+                            <li>2 tsp curry powder</li><br>
+                            <li>1 tsp mustard powder</li><br>
+                            <li>1 1/2 tsp turmeric powder</li><br>
+                            <li>2 green chillies cut lengthwise</li><br>
+                            <li>5 - 8 curry leaves</li><br>
+                            <li>2cm pandon leaf</li><br>
+                            <li>1 cup coconut cream</li><br>
+                            <li>1/2 cup water</li><br>
+                        </ul>
+                    </td>
+                    <td>
+                        <ol class="step-list" data-header="ash-plantain-curry">
+                            <li label><input type="checkbox" class="step-checkbox"
+                                    aria-label="Mark step 1 as complete."></li><br>
+                            <li label><input type="checkbox" class="step-checkbox"
+                                    aria-label="Mark step 2 as complete."></li><br>
+                            <li label><input type="checkbox" class="step-checkbox"
+                                    aria-label="Mark step 3 as complete."></li><br>
+                            <li label><input type="checkbox" class="step-checkbox"
+                                    aria-label="Mark step 4 as complete."></li><br>
+                            <li label><input type="checkbox" class="step-checkbox"
+                                    aria-label="Mark step 5 as complete."></li><br>
+                        </ol>
+                    </td>
+                </tr>
+
+
+                <!-- Shrimp Blachan -->
+                <tr class="recipe-header" data-recipe="blachan">
+                    <td>
+                        <button type="button" class="expand-btn" aria-expanded="false" aria-controls="blachan"
+                            aria-label="Toggle blachan recipe details">Blachan</button>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="recipe-details" id="blachan" style="display:none;">
+                    <td></td>
+                    <td>
+                        <ul>
+                            <li>2 tbsp roasted dried shrimp </li><br>
+                            <li>1 medium sized red onion (diced)</li><br>
+                            <li>2 - 3 red chillies </li><br>
+                            <li>salt to taste</li><br>
+                            <li>lime to taste</li><br>
+                            <li>1 cup grated coconut</li><br>
+                        </ul>
+                    </td>
+                    <td>
+                        <ol class="step-list" data-header="blachan">
+                            <li label><input type="checkbox" class="step-checkbox"
+                                    aria-label="Mark step 1 as complete.">In a food processor add the dried shrimp, red
+                                onion, red chilli and a pinch of salt and
+                                grind them up.</li><br>
+                            <li label><input type="checkbox" class="step-checkbox"
+                                    aria-label="Mark step 2 as complete.">After everything has been ground up, squeeze
+                                lime juice into the mixture until moist and
+                                your desired level of acidity has been reached.</li><br>
+                            <li label><input type="checkbox" class="step-checkbox"
+                                    aria-label="Mark step 3 as complete.">Check for salt, if the blachan is not salty
+                                enough, add more.</li><br>
+                        </ol>
+                    </td>
+                </tr>
+            </table>
+        </div> <!-- End of Lamprais recipe-->
+
+
+
+
+
+
+        <!-- Kottu Recipe -->
+
+
+        <div class="recipe-section-table_1" role="main" aria-label="Main Content">
+            <table>
+            </table>
+        </div>
+        <div id="kottu" class="recipe-section" aria-labelledby="kottu-heading">
+            <h1 id="kottu-heading">02. Kottu</h1>
+            <h2>Kottu: When Leftovers Become a Symphony of Flavour</h2>
+            <p>Kottu originated in the Tamil regions of Sri Lanka in the 1970s, likely in Trincomalee or
+                Batticaloa. Throughout Sri Lanka, the distinctive sound of bench scrapers chopping
+                and mixing roti with vegetables on metal cooktops is like music to the ears as a feast is about to
+                arrive.</p><br>As a Sri Lankan, I can attest that this flavourful, inexpensive dish is arguably one
+            of
+            Sri
+            Lanka's hidden treasures,
+            one I find myself often craving. The humble origins of this dish highlight how ingenuity leads to
+            delicious
+            results. Kottu is a testament to how simple ingredients, when combined with creativity and skill, can
+            create
+            a meal that is both satisfying and full of character. It’s a dish that brings people together, whether
+            enjoyed at a bustling street stall or made at home with family and friends.</p><br>
+
+
+
+            <!-- A video of a easy cheese kottu you can make at home -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZEBPoZ1dmVQ?si=5T5K-588e2rqFP2i"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!-- Ending of recipe video -->
+            <p>The colour and vibrancy from the vegetables featured in the dish also make kottu look like a
+                magnificent
+                work of art that makes it both a treat for the eyes and your mouth.
+            </p>
+
+
+            <table class="recipe-summary-table condensed" aria-label="Recipe Summary">
+                <tr>
+                    <th scope="col">Category</th>
+                    <th scope="col">Servings</th>
+                    <th scope="col">Prep Time</th>
+                    <th scope="col">Cook Time</th>
+                </tr>
+                <tr>
+                    <td>Street Food</td>
+                    <td>2 - 3</td>
+                    <td>10 - 15 minutes</td>
+                    <td>5 - 10 minutes</td>
+                </tr>
+            </table>
+
+
+            <table class="recipe-steps-table condensed" aria-label="Recipe Details">
+                <tr>
+                    <th scope="col">Ingredients</th>
+                    <th scope="col">Method</th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul id="kottuIngredients">
+                            <li>Oil</li><br>
+                            <li>Garlic</li><br>
+                            <li>Ginger</li><br>
+                            <li>Pandan leaves</li><br>
+                            <li>2 Godamba Roti (Sri Lankan flatbread)</li><br>
+                            <li>1 cup of mixed vegetables (carrots, cabbage, peas)</li><br>
+                            <li>1 onion, chopped</li><br>
+                            <li>2 green chillies, chopped</li><br>
+                            <li>2 eggs (optional)</li><br>
+                            <li>Soy sauce to taste</li><br>
+                            <li>Salt and pepper to taste</li><br>
+                        </ul>
+                    </td>
+                    <td>
+                        <ol id="kottuinstruct">
+                            <li>Chop the Godamba roti into small pieces.</li><br>
+                            <li>In a large pan, heat some oil and sauté the onions and green chillies until
+                                fragrant.
+                            </li><br>
+                            <li>Add the mixed vegetables and cook until tender.</li><br>
+                            <li>Add the chopped roti and stir-fry for a few minutes.</li><br>
+                            <li>If using eggs, push the mixture to one side of the pan, crack the eggs on the other
+                                side,
+                                scramble them, and then mix everything together.</li><br>
+                            <li>Add soy sauce, salt, and pepper to taste. Serve hot!</li><br>
+
+                        </ol>
+                    </td>
+                </tr>
+            </table>
+            <hr>
+        </div>
+
+        <!-- Kottu Recipe Ends -->
+
+
+
+
+        <!-- Egg Hoppers Recipe -->
+
+        <div id="hoppers" class="recipe-section" aria-labelledby="egg-hoppers-heading">
+            <h1 id="egg-hoppers-heading">03. Egg Hoppers</h1>
+            <h2>Hoppers are Egglicious</h2>
+
+            <img id="Egg_Hop" src="./images/Eggy_Hoppers.jpg"
+                alt="Sri Lankan egg hopper served with red chilli sambol and two curry accompaniments on a dark blue plate, garnished with green leaves">
+        </div>
+    </div>
+
+
+    <!-- Summary Table -->
+    <table class="recipe-summary-table condensed" aria-label="Recipe Summary">
+        <tr>
+            <th scope="col">Category</th>
+            <th scope="col">Servings</th>
+            <th scope="col">Prep Time</th>
+            <th scope="col">Cook Time</th>
+        </tr>
+        <tr>
+            <td>Breakfast</td>
+            <td>5 - 6</td>
+            <td>3 - 4 hours</td>
+            <td>2 - 5 Minutes</td>
+        </tr>
+    </table>
+
+    <!-- Ingredients & Method Table -->
+    <table class="recipe-steps-table condensed" aria-label="Recipe Details">
+        <tr>
+            <th scope="col">Ingredients</th>
+            <th scope="col">Method</th>
+        </tr>
+        <tr>
+            <td>
+                <ul id="hopperIngredients">
+                    <li>1 teaspoon dried yeast</li><br>
+                    <li>2 teaspoons sugar</li><br>
+                    <li>1/2 cup lukewarm water</li><br>
+                    <li>Water from the coconut or plain water</li><br>
+                    <li>Approx. 2 1/2 cups thick coconut milk</li><br>
+                </ul>
+            </td>
+            <td>
+                <ol id="hopperinstruct">
+                    <li>Mix yeast and sugar in lukewarm water and leave aside 5 minutes or until it starts to froth.
+                        Put
+                        the rice flour into a large bowl. Make a well and add the yeast mixture and sufficient cold
+                        water or coconut water to make a soft dough. Cover and leave aside 3 - 4 hours to rise.</li>
+                    <br>
+                    <li>When the
+                        dough doubles in size and 3 hours before required, add the thick coconut milk to make a
+                        thick
+                        yet pourable batter. Add salt to taste and leave aside. After 3 hours the batter is
+                        ready to use. It may be necessary to add a little more milk to get the correct consistency
+                        and
+                        with a little practice you will achieve perfection.</li><br>
+                    <li>To make hoppers, wipe the pan with a piece of cloth dipped in oil. When the pan is hot pour
+                        a
+                        ladle of the batter. Swirl the pan around so that the batter covers the sides, be careful
+                        not to
+                        spill the batter. Cover and cook on a low
+                        heat until the top edge begins to turn golden. Remove hopper with a metal spatula. Wipe pan
+                        again with the oiled cloth and repeat.</li><br>
+                    <li>For egg hoppers, pour a ladle of batter into the pan. Then break an egg into the centre.
+                        Cover
+                        and cook on a very low heat until the egg is just done.</li><br>
+                    <li>Serve immediately with your choice of sambols, curries or chutneys for a traditional Sri
+                        Lankan
+                        breakfast experience.</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Egg Hoppers Recipe Ends -->
+
+
+    <hr>
+    <footer role="contentinfo" aria-label="Page Footer" style="color: white; text-align: center;">
+        Shamal Madawala Liyana Hettiarachchige<br>
+        Assessment 3 Due Date: 29th May 2025
+    </footer>
+    <!-- End of footer -->
+
+
+
+
+
+    <!-- All of my JavaScript stuff -->
+    <script>
+        document.querySelectorAll('.sidebar a.nav-link').forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const target = document.getElementById(targetId);
+                if (target) {
+                    // Change this value to match your banner height!
+                    const yOffset = -25; // e.g., -300px offset for a tall banner/header
+                    const y = target.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                    window.scrollTo({ top: y, behavior: 'smooth' });
+                }
+            });
+        });
+
+        window.addEventListener('scroll', function () {
+            const sidebar = document.querySelector('.sidebar');
+            if (window.scrollY > 750) { // change 300 to the number of pixels you want
+                sidebar.classList.add('visible');
+            } else {
+                sidebar.classList.remove('visible');
+            }
+        });
+
+        // Hide sidebar after idle time (e.g., 5 seconds)
+        let idleTimeout;
+        const idleTime = 3000; // 3000ms = 3 seconds
+        const sidebar = document.querySelector('.sidebar');
+
+        function resetIdleTimer() {
+            if (window.scrollY > 750) {
+                sidebar.classList.add('visible');
+            }
+            clearTimeout(idleTimeout);
+            idleTimeout = setTimeout(() => {
+                sidebar.classList.remove('visible');
+            }, idleTime);
+        }
+
+        // Listen for user activity
+        ['mousemove', 'keydown', 'scroll', 'touchstart'].forEach(evt => {
+            window.addEventListener(evt, resetIdleTimer, false);
+        });
+
+        // Start timer on page load if sidebar is visible
+        window.addEventListener('load', resetIdleTimer);
+
+        document.querySelectorAll('.expand-btn').forEach(btn => {
+            btn.addEventListener('click', function () {
+                const recipeId = this.parentElement.parentElement.getAttribute('data-recipe');
+                const detailsRow = document.getElementById(recipeId);
+                const isOpen = detailsRow.style.display === '';
+
+                // Collapse all
+                document.querySelectorAll('.recipe-details').forEach(row => row.style.display = 'none');
+                document.querySelectorAll('.expand-btn').forEach(b => b.setAttribute('aria-expanded', 'false'));
+
+                // Toggle current
+                if (!isOpen) {
+                    detailsRow.style.display = '';
+                    this.setAttribute('aria-expanded', 'true');
+                }
+            });
+        });
+
+        document.querySelectorAll('.step-list').forEach(list => {
+            list.addEventListener('change', function () {
+                const checkboxes = this.querySelectorAll('.step-checkbox');
+                const allChecked = Array.from(checkboxes).every(cb => cb.checked);
+                const headerKey = this.getAttribute('data-header');
+                const headerBtn = document.querySelector(`.recipe-header[data-recipe="${headerKey}"] .expand-btn`);
+                if (headerBtn) {
+                    if (allChecked) {
+                        headerBtn.style.backgroundColor = 'green';
+                        headerBtn.style.color = 'white';
+                    } else {
+                        headerBtn.style.backgroundColor = '';
+                        headerBtn.style.color = '';
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
+
+<!-- END OF DOCUMENT -->

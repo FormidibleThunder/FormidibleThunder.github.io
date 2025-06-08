@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking the style.css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.css"
+        integrity="sha512-GmZYQ9SKTnOea030Tbiat0Y+jhnYLIpsGAe6QTnToi8hI2nNbVMETHeK4wm4MuYMQdrc38x+sX77+kVD01eNsQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <header role="banner" aria-label="Site Header">The Wonders of Sri Lankan Food</header>
+
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <ul role="menubar" aria-label="Main menu">
+            <li role="none"><a href="index.html" role="menuitem" aria-label="Home page">Home</a></li>
+            <li role="none"><a href="recipes.html" role="menuitem" aria-label="View Sri Lankan recipes">Recipes</a></li>
+            <li role="none"><a href="register.html" class="active" role="menuitem" aria-current="page"
+                    aria-label="Newsletter">Newsletter</a></li>
+        </ul>
+    </nav>
+
+    <div class="banner" role="banner" aria-label="Hero Banner">
+        <img src="./images/srilankasunset.png" alt="A picture of a Sri Lankan Sunset">
+        <div class="banner-overlay">
+            <div class="banner-text" aria-label="Banner Description">
+                <h1>The Wonders of Sri Lankan Food</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="signUptext">
+        <h1>Sign up for our newsletter.</h1>
+        <p>By signing up to our newsletter you will be notified about upcoming Sri Lankan recipes.</p> <br><br>
+        <p>A new recipe
+            will be posted every week!</p>
+    </div>
+    <form id="registrationForm" aria-label="Newsletter Signup Form">
+
+        <!-- THIS SECTION MAKES SURE A VALID FIRST NAME IS ENTERED -->
+        <label for="firstName">First Name:</label>
+        <div class="input-icon">
+            <i class="fa fa-user"></i>
+            <input pattern="^[A-Z][a-zA-Z]+$" title="Please enter only letters" type="text" name="firstName"
+                id="firstName" placeholder="Enter letters only" required>
+        </div>
+
+        <label for="lastName">Last Name:</label>
+        <div class="input-icon">
+            <i class="fa fa-user"></i>
+            <input pattern="^[A-Z][a-zA-Z]+$" title="Please enter only letters" type="text" name="lastName"
+                id="lastName" placeholder="Enter letters only" required>
+        </div>
+
+        <label for="emailAddress">Email address:</label>
+        <div class="input-icon">
+            <i class="fa fa-envelope"></i>
+            <input type="email" id="emailAddress" name="emailAddress" placeholder="Please enter a valid email"
+                title="Please enter a valid email address (e.g., example@domain.com)" required>
+        </div>
+
+        <label for="mobileNumber">Mobile number:</label>
+        <div class="input-icon">
+            <i class="fa fa-phone"></i>
+            <input pattern="[1-9]{1}[0-9]{9}" type="tel" id="mobileNumber" name="mobileNumber"
+                placeholder="Enter 10-digit mobile number"
+                title="Please enter a valid 10-digit mobile number starting with a non-zero digit" required>
+        </div>
+
+        <label for="password">Password:</label>
+        <div class="input-icon">
+            <i class="fa fa-lock"></i>
+            <input type="password" id="password" name="password" minlength="6" maxlength="12"
+                placeholder="Password (6-12 characters)" required>
+        </div>
+
+        <label for="confirmPassword">Confirm password:</label>
+        <div class="input-icon">
+            <i class="fa fa-lock"></i>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm password" required>
+        </div>
+        <div class="input-icon">
+            <input type="submit" id="submit" name="submit" value="Submit">
+        </div>
+
+    </form>
+
+    <script src="script.js"></script> <!-- Linking the script.js file -->
+
+    <footer role="contentinfo" aria-label="Page Footer" style="color: white; text-align: center;">
+        Shamal Madawana Liyana Hettiarachchige<br>
+        Assessment 3 Due Date: 29th May 2025
+    </footer>
+
+</body>
+
+</html>

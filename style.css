@@ -1,0 +1,608 @@
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 0rem;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+    background-color: #81171b;
+    overflow-x: hidden;
+}
+
+.content {
+    width: 70%;
+    padding: 20px;
+    margin-left: 17%;
+    /* Match or slightly exceed your .sidebar width */
+    box-sizing: border-box;
+}
+
+/* THIS STYLES THE SIDEBAR */
+
+.sidebar {
+    width: 190px;
+    position: fixed;
+    top: 200px;
+    left: 0;
+    height: 100vh;
+    background-color: #00000000;
+    /* Solid, high-contrast background */
+    padding: 24px 16px;
+    overflow-y: auto;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+
+.sidebar h2 {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px;
+}
+
+.sidebar ul li a {
+    color: #ffe066;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    display: block;
+    padding: 6px 0;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+    background: #ffe066;
+    color: #8B2323;
+    font-weight: bold;
+}
+
+/* END OF THE SIDEBAR STYLING */
+
+.recipe-section {
+    min-height: 100vh;
+    padding: 20px 0;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 204, 0);
+}
+
+/* STYLES THE HERO IMAGE */
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* Make the banner take the full viewport height */
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    /* Adjust font size as needed */
+    text-align: center;
+    z-index: 2;
+    font-weight: bold;
+}
+
+
+.banner-text h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    text-align: center;
+
+}
+
+.banner-text h2 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #ffcc00;
+
+}
+
+.banner-text p {
+    font-size: 1.5em;
+    margin-top: 0;
+    position: absolute;
+    top: 132px;
+    left: 525px;
+
+}
+
+.banner-text .banner-desc {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    width: 842px;
+    transform: translateX(-50%);
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 100%);
+    text-align: justify;
+    /* Add any other custom styles for this page */
+}
+
+/* END OF HERO IMAGE STYLING */
+
+.signUptext {
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px #00000044;
+}
+
+
+
+.recipe-steps-table,
+.recipe-steps-table.condensed {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    table-layout: fixed;
+}
+
+
+.recipe-steps-table td {
+    border: 1px solid #888;
+    padding: 24px;
+    vertical-align: top;
+    text-align: left;
+
+}
+
+.recipe-steps-table th {
+    font-size: 1.5em;
+    color: #000000;
+    text-align: center;
+    height: 100px;
+}
+
+
+.recipe-steps-table.condensed {
+    background-color: coral;
+    border-radius: 18px;
+    padding: 24px;
+    margin: 30px auto;
+    width: 100%;
+    /* Fill the .content area */
+    max-width: 900px;
+    min-width: 400px;
+    box-sizing: border-box;
+    display: table;
+    overflow: hidden;
+}
+
+.recipe-steps-table.condensed th {
+    background: orangered;
+    padding: 18px 30px;
+    vertical-align: top;
+    width: 50%;
+    border-radius: 0px;
+    /* Evenly distribute columns */
+}
+
+.recipe-steps-table.condensed h6 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 130px;
+    position: absolute;
+    top: 2070px;
+    left: 24.5%;
+    text-align: center;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #416643;
+}
+
+ol {
+    list-style-type: upper-roman;
+    list-style-position: outside;
+    text-align: justify;
+    width: 80%;
+}
+
+ul {
+    text-align: left;
+}
+
+
+.recipe-steps-table.condensed td {
+    background: transparent;
+    border: none;
+    padding: 18px 24px;
+    vertical-align: top;
+    text-align: left;
+    width: 50%;
+    color: white;
+    /* Evenly distribute columns */
+}
+
+/* This section styles the recipe steps table along with all of the child header and data */
+.recipe-steps-table th:nth-child(1),
+.recipe-steps-table td:nth-child(1) {
+    width: 21%;
+    background-color: #005A5A;
+
+}
+
+.recipe-steps-table th:nth-child(2),
+.recipe-steps-table td:nth-child(2) {
+    width: 35%;
+    background-color: #D65c00;
+}
+
+.recipe-steps-table th:nth-child(3),
+.recipe-steps-table td:nth-child(3) {
+    width: 50%;
+    background-color: #8B2635;
+}
+
+/* END OF RECIPE STEPS TABLE STYLING */
+
+/* THIS SECTION CONTROLS THE RECIPE BREAKDOWN TABLE BACKGROUND COLOUR, HEADINGS AND DATA */
+.recipe-summary-table.condensed {
+    background-color: coral;
+    border-radius: 0;
+    padding: 24px;
+    margin: 30px auto 0 auto;
+    width: auto;
+    max-width: 900px;
+    min-width: 600px;
+    box-sizing: border-box;
+    display: table;
+}
+
+.recipe-summary-table.condensed th,
+.recipe-summary-table.condensed td {
+    background: transparent;
+    border: none;
+
+}
+
+.recipe-summary-table.condensed th,
+.recipe-summary-table.condensed td {
+    padding: 12px 18px;
+    vertical-align: top;
+    text-align: center;
+    min-width: 120px;
+    width: 180px;
+}
+
+/* END OF RECIPE SUMMARY / QUICKVIEW TABLE STYLING */
+
+@media (max-width: 900px) {
+
+    .recipe-steps-table,
+    .recipe-steps-table tr {
+        display: block;
+        width: 100%;
+    }
+
+    .recipe-steps-table th .recipe-steps-table td {
+        width: 50%;
+    }
+
+    .recipe-steps-table td,
+    .recipe-steps-table th {
+        box-sizing: border-box;
+    }
+}
+
+
+#hopper #hopperinstruct {
+    padding-top: 80px;
+    /* Increase this value as needed */
+    margin: auto;
+}
+
+
+/* THIS SECTION CONTROLS THE APPEARANCE OF THE NAVBAR */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #131313;
+}
+
+.navbar li {
+    float: left;
+
+}
+
+.navbar a.active {
+    background-color: #66283c;
+    color: white;
+    border-bottom: 3px solid #ffe066;
+}
+
+.navbar a:hover:not(.active) {
+    background-color: #131313;
+    border-bottom: 3px solid #4CAF50;
+}
+
+/* END OF NAVBAR STYLE */
+
+
+/* THIS IS MY NOTE ON MEAL PREP FOR LAMPRAIS */
+
+.lamprais-tip {
+    position: absolute;
+    right: 5px;
+    top: 2050px;
+    width: 200px;
+    background-color: #000000;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: #333;
+}
+
+.lamprais-tip h4 {
+    margin: 0 0 10px 0;
+    color: #4CAF50;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.lamprais-tip p {
+    margin: 0;
+    text-align: justify;
+    color: #fff;
+}
+
+@media (max-width: 1400px) {
+    .lamprais-tip {
+        position: static;
+        width: 100%;
+        margin: 20px 0;
+        right: auto;
+        top: auto;
+    }
+}
+
+/* END OF LAMPRAIS NOTE */
+
+#kottu>p,
+.recipe-section>p {
+    margin-left: 0px;
+    text-align: justify;
+
+}
+
+#Egg_Hop {
+    height: 80vh;
+    margin-left: 2%;
+}
+
+/* ADDED BECAUSE OF YOUTUBE VIDEO EMBED */
+iframe {
+    border: 0px;
+}
+
+/* END LINE */
+
+.recipe-details #lamprais>tr {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+#lampraishead h1,
+h2 {
+    color: orangered;
+}
+
+#lampraishead h2 {
+    color: rgb(255, 204, 0);
+}
+
+
+
+/* A BRITANNICA LINK TO DUTCH COLONISATION */
+
+.history-link {
+    color: orange;
+}
+
+.history-link:hover {
+    color: orangered;
+}
+
+/* END OF BRITANNICA LINK */
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #c47104;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+input {
+    width: 200px;
+    height: 15px;
+    padding: 12px 20px;
+    background-color: rgb(226, 177, 43);
+    color: #000000;
+}
+
+.input-icon {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.input-icon i {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #bdbdbd;
+    font-size: 1.1em;
+    pointer-events: none;
+}
+
+.input-icon input {
+    background: #333333;
+    color: #ffffff;
+    border: 2px solid #666666;
+    padding-left: 40px;
+    /* Make space for icon */
+    height: 2.2em;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input-icon input::placeholder {
+    color: #bdbdbd;
+    opacity: 1;
+}
+
+#registrationForm label {
+    color: #222222;
+    font-weight: bold;
+    margin-bottom: 0.1em;
+    display: block;
+}
+
+#registrationForm input[type="submit"] {
+    margin-left: 0;
+    margin-top: 1em;
+    height: 2.2em;
+    font-size: 1em;
+    padding: 0 1.5em;
+    border-radius: 4px;
+    background-color: #388E3C;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#registrationForm input[type="submit"]:hover {
+    background-color: #256029;
+}
+
+form {
+    background: #d17b30;
+    padding: 1em;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form {
+    background: #d17b30;
+    /* keep the form bg as in your screenshot, or adjust for more contrast if needed */
+    padding: 1em;
+    border-radius: 12px;
+}
